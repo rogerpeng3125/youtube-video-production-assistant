@@ -1,0 +1,29 @@
+# Recordings and renders — large binaries, never versioned.
+videos/*/media/
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.m4a
+
+# Manim build output
+media/
+__pycache__/
+*.py[cod]
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Claude Code local settings (per-machine permissions). The agent wrappers in
+# .claude/agents/ ARE versioned — they are part of the pipeline.
+.claude/settings.local.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
